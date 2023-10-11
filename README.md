@@ -17,6 +17,11 @@
 
 <!-- galaxy -->
 ## Galaxy-pipeline
+<p>
+  <ol>
+    <li>Conversion CRAM to BAM: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga</li>
+  </ol>
+</p>
 
 <!-- rscripts -->
 ## R scripts
