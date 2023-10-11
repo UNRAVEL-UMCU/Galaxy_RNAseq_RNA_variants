@@ -97,6 +97,14 @@
   </ol>
 </p>
 
+<h3>Complete workflow from BAM to output</h3>
+<p>
+  The workflow file: Galaxy-Workflow-Project_workflow.ga 
+  </br>
+  </br>
+  This workflow can be run 1 file at a time (<a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a> till galaxy decides to corrupt the history). However, I would use the "collection" option and run these tools separately instead of using the workflow. This keeps the filenames unchanged in the collection.
+</p>
+
 <!-- rscripts -->
 ## R scripts
 <p>
