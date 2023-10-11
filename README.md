@@ -28,9 +28,13 @@
 </div>
 </br>
 
+<p>
+  Example histories can be used to see what was exactly run in the workflow file with the output. Till Galaxy decides to corrupt the history. However, I would use the "collection" option and run these tools separately instead of using the workflow. This keeps the filenames unchanged in the collection and saves time of renaming the files one by one.
+</p>
+
 ## Conversion CRAM to BAM
 <p>
-  File: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
+  Workflow file: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
   <ol>
     <li>Samtools view</li>
     <li>Replace chromosome names, use chromosome_replace.txt</li>
