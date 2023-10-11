@@ -18,8 +18,9 @@
 <!-- galaxy -->
 ## Galaxy-pipeline
 <div align="center">
-  <img src="pipeline.pdf" alt="Logo" width="80" height="80">
+  <img src="pipeline.pdf" alt="Logo" width="80" height="100">
 </div>
+</br>
 
 <p>
   Conversion CRAM to BAM Workflow: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
