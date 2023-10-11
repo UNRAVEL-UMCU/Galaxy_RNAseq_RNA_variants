@@ -35,6 +35,7 @@
 
 <p>
   Workflow file: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
+  Example history of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/nottinghampreprocess" target="_blank">Example_run</a>
   <ol>
     <li>Samtools view</li>
     <li>Replace chromosome names, use chromosome_replace.txt</li>
