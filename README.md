@@ -115,7 +115,7 @@
 <p>
   Workflow file: Galaxy-Workflow-Michigan_preproces.ga
   </br>
-  Example history of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a>
+  Example history of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/michiganpreprocess" target="_blank">Example_run</a>
 </p>
 
 ## Complete workflow BAM to output
