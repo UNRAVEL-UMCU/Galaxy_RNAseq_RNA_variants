@@ -103,9 +103,16 @@
   </ol>
 </p>
 
+## FastQ to BAM
+
+<p>
+  Workflow file: 
+  Example history of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a>
+</p>
+
 ## Complete workflow BAM to output
 <p>
-  The workflow file: Galaxy-Workflow-Project_workflow.ga 
+  Workflow file: Galaxy-Workflow-Project_workflow.ga 
   </br>
   </br>
   This workflow can be run 1 file at a time (<a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a> till galaxy decides to corrupt the history). However, I would use the "collection" option and run these tools separately instead of using the workflow. This keeps the filenames unchanged in the collection.
