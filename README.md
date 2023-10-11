@@ -44,20 +44,36 @@
       </ul>
   </li>
     <li>Step 2: Replace chromosome names
-Tabular input dataset = Output 'outputsam' from Step 1.
-Columns on which to perform the replacement = 3
-Mapping table = Select at Runtime.
-Comment character = Empty.</li>
+      <ul>
+        <li>Tabular input dataset = Output 'outputsam' from Step 1.</li>
+        <li>Columns on which to perform the replacement = 3</li>
+        <li>Mapping table = Select at Runtime.</li>
+        <li>Comment character = Empty.</li>
+      </ul>
+  </li>
     <li>Step 3: Samtools view
-SAM/BAM/CRAM data set = Output 'output' from Step 2.
-What would you like to look at? = All reads in the input dataset
-What would you like to have reported? = The actual reads
-Read Reformatting Options:
-Collapse backward CIGAR operation = False
-Output format = BAM (-b)
-Use a reference sequence = Use a built-in genome
-Reference = hg19</li>
+      <ul>
+        <li>SAM/BAM/CRAM data set = Output 'output' from Step 2.</li>
+        <li>What would you like to look at? = All reads in the input dataset</li>
+        <li>What would you like to have reported? = The actual reads</li>
+        <li>Read Reformatting Options:</li>
+        <li>Collapse backward CIGAR operation = False</li>
+        <li>Output format = BAM (-b)</li>
+        <li>Use a reference sequence = Use a built-in genome</li>
+        <li>Reference = hg19</li>
+      </ul>
+  </li>
     <li>Step 4: AddOrReplaceReadGroups
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
 Select SAM/BAM dataset or dataset collection = Output 'outputsam' from Step 3.
 Auto-assign = True
 Auto-assign = True
@@ -70,6 +86,16 @@ Predicted median insert size (PI) = Not available.
 Date that run was produced (DT) = Not available.
 Select validation stringency = Lenient</li>
     <li>Step 5: FreeBayes
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
 Choose the source for the reference genome = Locally cached
 Run in batch mode? = Run individually
 BAM or CRAM dataset = Output 'outFile' from Step 4.
