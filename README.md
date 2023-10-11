@@ -24,7 +24,7 @@
 <!-- galaxy -->
 ## Galaxy-pipeline
 <div align="center">
-  <img src="pipeline.pdf" alt="Logo" width="80" height="100">
+  <img src="pipeline.png" alt="Logo" width="80" height="100">
 </div>
 </br>
 
