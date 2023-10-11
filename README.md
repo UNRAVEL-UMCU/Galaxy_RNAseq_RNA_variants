@@ -7,7 +7,7 @@
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#galaxy">Galaxy-pipeline</a></li>
     <li><a href="#rscripts">R scripts</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Local Galaxy handy notes</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -23,7 +23,7 @@
 
 <!-- contact -->
 ## Local Galaxy handy notes
-<p>Resizing the <a href="https://support.mydre.org/portal/en/kb/articles/resizevm">VM</a></p>
+<p>Resizing the <a href="https://support.mydre.org/portal/en/kb/articles/resizevm" target="_blank">VM</a></p>
 
 <!-- acknowledgments -->
 ## Acknowledgments
