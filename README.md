@@ -42,16 +42,16 @@
         <li>Use a reference sequence = Use a built-in genome</li>
         <li>Reference = hg19 Full</li>
       </ul>
-  </li>
-    <li>Step 2: Replace chromosome names
+    </li>
+      <li>Step 2: Replace chromosome names
       <ul>
         <li>Tabular input dataset = Output 'outputsam' from Step 1.</li>
         <li>Columns on which to perform the replacement = 3</li>
         <li>Mapping table = Select at Runtime.</li>
         <li>Comment character = Empty.</li>
       </ul>
-  </li>
-    <li>Step 3: Samtools view
+    </li>
+      <li>Step 3: Samtools view
       <ul>
         <li>SAM/BAM/CRAM data set = Output 'output' from Step 2.</li>
         <li>What would you like to look at? = All reads in the input dataset</li>
@@ -62,47 +62,33 @@
         <li>Use a reference sequence = Use a built-in genome</li>
         <li>Reference = hg19</li>
       </ul>
-  </li>
-    <li>Step 4: AddOrReplaceReadGroups
+    </li>
+      <li>Step 4: AddOrReplaceReadGroups
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Select SAM/BAM dataset or dataset collection = Output 'outputsam' from Step 3.</li>
+        <li>Auto-assign = True</li>
+        <li>Auto-assign = True</li>
+        <li>Auto-assign = True</li>
+        <li>Platform/technology used to produce the reads (PL) = ILLUMINA</li>
+        <li>Platform unit (PU) = run</li>
+        <li>Sequencing center that produced the read (CN) = Not available.</li>
+        <li>Description (DS) = Not available.</li>
+        <li>Predicted median insert size (PI) = Not available.</li>
+        <li>Date that run was produced (DT) = Not available.</li>
+        <li>Select validation stringency = Lenient</li>        
       </ul>
-Select SAM/BAM dataset or dataset collection = Output 'outputsam' from Step 3.
-Auto-assign = True
-Auto-assign = True
-Auto-assign = True
-Platform/technology used to produce the reads (PL) = ILLUMINA
-Platform unit (PU) = run
-Sequencing center that produced the read (CN) = Not available.
-Description (DS) = Not available.
-Predicted median insert size (PI) = Not available.
-Date that run was produced (DT) = Not available.
-Select validation stringency = Lenient</li>
+    </li>
     <li>Step 5: FreeBayes
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>Choose the source for the reference genome = Locally cached</li>
+        <li>Run in batch mode? = Run individually</li>
+        <li>BAM or CRAM dataset = Output 'outFile' from Step 4.</li>
+        <li>Using reference genome = hg19</li>
+        <li>Limit variant calling to a set of regions? = Do not limit</li>
+        <li>Read coverage = Use defaults</li>
+        <li>Choose parameter selection level = 1. Simple diploid calling</li>
       </ul>
-Choose the source for the reference genome = Locally cached
-Run in batch mode? = Run individually
-BAM or CRAM dataset = Output 'outFile' from Step 4.
-Using reference genome = hg19
-Limit variant calling to a set of regions? = Do not limit
-Read coverage = Use defaults
-Choose parameter selection level = 1. Simple diploid calling</li>
+    </li>
   </ol>
 </p>
 
