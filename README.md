@@ -8,6 +8,7 @@
     <li><a href="#Galaxy-pipeline">Galaxy-pipeline</a>
       <ul>
         <li><a href="#Conversion-CRAM-to-BAM">Conversion CRAM to BAM</a></li>
+        <li><a href="#-FastQ-to-BAM">FastQ to BAM</a></li>
         <li><a href="#Complete-workflow-BAM-to-output">Complete workflow BAM to output</a></li>
       </ul>
     </li>
