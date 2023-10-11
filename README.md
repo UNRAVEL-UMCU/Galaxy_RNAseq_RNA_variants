@@ -23,7 +23,7 @@
 
 <!-- contact -->
 ## Local Galaxy handy notes
-<p>Resizing the <a href="https://support.mydre.org/portal/en/kb/articles/resizevm" target="_blank">VM</a></p>
+<p>Resizing the <a href="https://support.mydre.org/portal/en/kb/articles/resizevm" target=_blank>VM</a></p>
 
 <!-- acknowledgments -->
 ## Acknowledgments
