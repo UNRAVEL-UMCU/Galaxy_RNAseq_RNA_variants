@@ -8,6 +8,7 @@
     <li><a href="#Galaxy-pipeline">Galaxy-pipeline</a>
       <ul>
         <li><a href="#Conversion-CRAM-to-BAM">Conversion CRAM to BAM</a></li>
+        <li><a href="#Complete-workflow-BAM-to-output">Complete workflow BAM to output</a></li>
       </ul>
     </li>
     <li><a href="#r-scripts">R scripts</a></li>
@@ -27,7 +28,6 @@
 </br>
 
 ## Conversion CRAM to BAM
-<h3>Conversion CRAM to BAM Workflow</h3>
 <p>
   File: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
   <ol>
@@ -103,7 +103,7 @@
   </ol>
 </p>
 
-<h3>Complete workflow from BAM to output</h3>
+## Complete workflow BAM to output
 <p>
   The workflow file: Galaxy-Workflow-Project_workflow.ga 
   </br>
