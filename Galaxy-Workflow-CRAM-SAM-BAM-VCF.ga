@@ -1,0 +1,274 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "format-version": "0.1",
+    "name": "CRAM-SAM-BAM-VCF",
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.15.1+galaxy0",
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Samtools view",
+                    "name": "input"
+                }
+            ],
+            "label": null,
+            "name": "Samtools view",
+            "outputs": [
+                {
+                    "name": "outputsam",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 3.56951904296875,
+                "top": 0
+            },
+            "post_job_actions": {
+                "DeleteIntermediatesActionoutputsam": {
+                    "action_arguments": {},
+                    "action_type": "DeleteIntermediatesAction",
+                    "output_name": "outputsam"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.15.1+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "5826298f6a73",
+                "name": "samtools_view",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"addref_cond\": {\"addref_select\": \"cached\", \"__current_case__\": 2, \"ref\": \"hg19 Full\"}, \"input\": {\"__class__\": \"RuntimeValue\"}, \"mode\": {\"outtype\": \"all_reads\", \"__current_case__\": 0, \"output_options\": {\"reads_report_type\": \"retained\", \"__current_case__\": 0, \"adv_output\": {\"readtags\": [], \"collapsecigar\": false}, \"output_format\": {\"oformat\": \"sam\", \"__current_case__\": 1, \"with_header\": false}}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.15.1+galaxy0",
+            "type": "tool",
+            "uuid": "f2135df1-fe87-4cd1-be3d-ba096471d509",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "1": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/earlhaminst/replace_chromosome_names/replace_chromosome_names/0.1",
+            "errors": null,
+            "id": 1,
+            "input_connections": {
+                "input": {
+                    "id": 0,
+                    "output_name": "outputsam"
+                }
+            },
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool Replace chromosome names",
+                    "name": "mapping"
+                }
+            ],
+            "label": null,
+            "name": "Replace chromosome names",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 2.222259521484375,
+                "top": 155.94445037841797
+            },
+            "post_job_actions": {
+                "DeleteIntermediatesActionoutput": {
+                    "action_arguments": {},
+                    "action_type": "DeleteIntermediatesAction",
+                    "output_name": "output"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/earlhaminst/replace_chromosome_names/replace_chromosome_names/0.1",
+            "tool_shed_repository": {
+                "changeset_revision": "6c0373cc070f",
+                "name": "replace_chromosome_names",
+                "owner": "earlhaminst",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"cols\": \"3\", \"comment_char\": \"\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"mapping\": {\"__class__\": \"RuntimeValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.1",
+            "type": "tool",
+            "uuid": "7759f2a7-04ed-4b17-8caf-0e02cd04b836",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.15.1+galaxy0",
+            "errors": null,
+            "id": 2,
+            "input_connections": {
+                "input": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Samtools view",
+            "outputs": [
+                {
+                    "name": "outputsam",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 0,
+                "top": 318.50000762939453
+            },
+            "post_job_actions": {
+                "DeleteIntermediatesActionoutputsam": {
+                    "action_arguments": {},
+                    "action_type": "DeleteIntermediatesAction",
+                    "output_name": "outputsam"
+                },
+                "TagDatasetActionoutputsam": {
+                    "action_arguments": {
+                        "tags": "Delete"
+                    },
+                    "action_type": "TagDatasetAction",
+                    "output_name": "outputsam"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/samtools_view/samtools_view/1.15.1+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "5826298f6a73",
+                "name": "samtools_view",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"addref_cond\": {\"addref_select\": \"cached\", \"__current_case__\": 2, \"ref\": \"hg19\"}, \"input\": {\"__class__\": \"ConnectedValue\"}, \"mode\": {\"outtype\": \"all_reads\", \"__current_case__\": 0, \"output_options\": {\"reads_report_type\": \"retained\", \"__current_case__\": 0, \"adv_output\": {\"readtags\": [], \"collapsecigar\": false}, \"output_format\": {\"oformat\": \"bam\", \"__current_case__\": 2}}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.15.1+galaxy0",
+            "type": "tool",
+            "uuid": "eedf29bd-52aa-4bb5-9d75-cbe174203eb3",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "3": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/2.18.2.1",
+            "errors": null,
+            "id": 3,
+            "input_connections": {
+                "inputFile": {
+                    "id": 2,
+                    "output_name": "outputsam"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "AddOrReplaceReadGroups",
+            "outputs": [
+                {
+                    "name": "outFile",
+                    "type": "bam"
+                }
+            ],
+            "position": {
+                "left": 246.41671752929688,
+                "top": 0.888916015625
+            },
+            "post_job_actions": {
+                "DeleteIntermediatesActionoutFile": {
+                    "action_arguments": {},
+                    "action_type": "DeleteIntermediatesAction",
+                    "output_name": "outFile"
+                },
+                "RenameDatasetActionoutFile": {
+                    "action_arguments": {
+                        "newname": "23809_2#"
+                    },
+                    "action_type": "RenameDatasetAction",
+                    "output_name": "outFile"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_AddOrReplaceReadGroups/2.18.2.1",
+            "tool_shed_repository": {
+                "changeset_revision": "a1f0b3f4b781",
+                "name": "picard",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"CN\": null, \"DS\": null, \"DT\": null, \"PI\": null, \"PL\": \"ILLUMINA\", \"PU\": \"run\", \"inputFile\": {\"__class__\": \"ConnectedValue\"}, \"read_group_id_conditional\": {\"do_auto_name\": true, \"__current_case__\": 0}, \"read_group_lb_conditional\": {\"do_auto_name\": true, \"__current_case__\": 0}, \"read_group_sm_conditional\": {\"do_auto_name\": true, \"__current_case__\": 0}, \"validation_stringency\": \"LENIENT\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.18.2.1",
+            "type": "tool",
+            "uuid": "fef8e8dd-a67a-46f3-9b4e-5be0c23fbf93",
+            "when": null,
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "outFile",
+                    "uuid": "e8412f6f-f37f-4553-a16e-512bd47fac4a"
+                }
+            ]
+        },
+        "4": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.6+galaxy0",
+            "errors": null,
+            "id": 4,
+            "input_connections": {
+                "reference_source|batchmode|input_bams": {
+                    "id": 3,
+                    "output_name": "outFile"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "FreeBayes",
+            "outputs": [
+                {
+                    "name": "output_vcf",
+                    "type": "vcf"
+                }
+            ],
+            "position": {
+                "left": 251.86165075613192,
+                "top": 177.09242601583966
+            },
+            "post_job_actions": {
+                "DeleteIntermediatesActionoutput_vcf": {
+                    "action_arguments": {},
+                    "action_type": "DeleteIntermediatesAction",
+                    "output_name": "output_vcf"
+                },
+                "RenameDatasetActionoutput_vcf": {
+                    "action_arguments": {
+                        "newname": "23809_2#"
+                    },
+                    "action_type": "RenameDatasetAction",
+                    "output_name": "output_vcf"
+                }
+            },
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.3.6+galaxy0",
+            "tool_shed_repository": {
+                "changeset_revision": "a5937157062f",
+                "name": "freebayes",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"coverage_options\": {\"coverage_options_selector\": \"do_not_set\", \"__current_case__\": 1}, \"options_type\": {\"options_type_selector\": \"simple\", \"__current_case__\": 1}, \"reference_source\": {\"reference_source_selector\": \"cached\", \"__current_case__\": 0, \"batchmode\": {\"processmode\": \"individual\", \"__current_case__\": 0, \"input_bams\": {\"__class__\": \"ConnectedValue\"}}, \"ref_file\": \"hg19\"}, \"target_limit_type\": {\"target_limit_type_selector\": \"do_not_limit\", \"__current_case__\": 0}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.3.6+galaxy0",
+            "type": "tool",
+            "uuid": "6ee0219f-1ca0-4680-aaf4-76caf20574e7",
+            "when": null,
+            "workflow_outputs": [
+                {
+                    "label": null,
+                    "output_name": "output_vcf",
+                    "uuid": "a62da5fc-ef3a-4b15-a8ed-3bd1f659ac0a"
+                }
+            ]
+        }
+    },
+    "tags": [],
+    "uuid": "f1217583-9639-469b-985b-9998963bd005",
+    "version": 17
+}
