@@ -22,7 +22,8 @@
 ## R scripts
 
 <!-- contact -->
-## Contact
+## Local Galaxy handy notes
+<p>Resizing the <a href="https://support.mydre.org/portal/en/kb/articles/resizevm">VM</a></p>
 
 <!-- acknowledgments -->
 ## Acknowledgments
