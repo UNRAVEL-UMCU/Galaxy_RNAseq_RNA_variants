@@ -6,7 +6,7 @@
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#Galaxy-pipeline">Galaxy-pipeline</a></li>
-    <li><a href="#rscripts">R scripts</a></li>
+    <li><a href="#r-scripts">R scripts</a></li>
     <li><a href="#local-galaxy">Local Galaxy</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
