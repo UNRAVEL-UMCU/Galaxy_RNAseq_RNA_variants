@@ -5,7 +5,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#Galaxy-pipeline">Galaxy-pipeline</a></li>
+    <li><a href="#Galaxy-pipeline">Galaxy-pipeline</a>
+      <ul>
+        <li><a href="#Conversion-CRAM-to-BAM">Conversion CRAM to BAM</a></li>
+      </ul>
+    </li>
     <li><a href="#r-scripts">R scripts</a></li>
     <li><a href="#local-galaxy">Local Galaxy</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -22,6 +26,7 @@
 </div>
 </br>
 
+## Conversion CRAM to BAM
 <h3>Conversion CRAM to BAM Workflow</h3>
 <p>
   File: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
