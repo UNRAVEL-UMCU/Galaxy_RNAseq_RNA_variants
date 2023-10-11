@@ -30,7 +30,7 @@
 
 ## Conversion CRAM to BAM
 <p>
-  Example histories can be used to see what was exactly run in the workflow file with the output. Till Galaxy decides to corrupt the history. However, I would use the "collection" option and run these tools separately instead of using the workflow. This keeps the filenames unchanged in the collection and saves time of renaming the files one by one.
+  Example histories can be used to see what was exactly run in the workflow file with the output. Till Galaxy decides to corrupt the history. However, I would use the "collection" option and run these tools separately instead of using the workflow. This keeps the filenames unchanged in the collection and saves time of renaming the files one by one. All output generated during this project can be found on the UMCU workstation.
 </p>
 
 <p>
