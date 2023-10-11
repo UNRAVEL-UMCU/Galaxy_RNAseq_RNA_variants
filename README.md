@@ -22,8 +22,9 @@
 </div>
 </br>
 
-<h3>Conversion CRAM to BAM Workflow: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga</h3>
+<h3>Conversion CRAM to BAM Workflow</h3>
 <p>
+  File: Galaxy-Workflow-CRAM-SAM-BAM-VCF.ga
   <ol>
     <li>Samtools view</li>
     <li>Replace chromosome names, use chromosome_replace.txt</li>
