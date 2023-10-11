@@ -97,6 +97,7 @@
 <p>
   Datasets for plotting can be found on the UMC Utrecht werkstation
 </p>
+
 <!-- Local galaxy -->
 ## Local Galaxy
 <p>
