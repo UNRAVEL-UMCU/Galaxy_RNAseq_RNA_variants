@@ -181,19 +181,19 @@
 <p>
   When in the Windows VM.
   </br>
-  1. Open cmd
+  1. Open cmd.
   </br>
   <code>ssh 10.xxx.xxx.xxx -l "youremail@mydre.org"</code>
   </br>
-  Type mydre password blindly and enter
+  Type mydre password blindly and enter.
 </p>
 <p>
-  2. To get to /home
+  2. To get to /home.
   </br>
   <code>cd ..</code>
 </p>
 <p>
-  3. To add more local admin users, go to this folder
+  3. To add more local admin users, go to this folder:
   </br>
   <code>cd /home/galaxy/group_vars</code>
   </br>
@@ -203,9 +203,9 @@
     <li>Use arrow keys to scroll down</li>
     <li>Look for galaxy_config</li>
   </ul>
-  <code>admin_users: admin@galaxy.org, "youremail@mail.org"</code>
+  *<code>admin_users: admin@galaxy.org, "youremail@mail.org"</code>
   </br>
-  Make one on the local Galaxy instance by registering. These can be self-made and do not have to be real. 
+  *Make one on the local Galaxy instance by registering. These can be self-made and do not have to be real. 
   </br>
   </br>
   3b. The cores(threads) and ram(buffer-size) used by Galaxy can be found here as well.
