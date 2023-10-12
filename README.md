@@ -200,6 +200,7 @@
   </br>
   Make one on the local galaxy instance by registering. These can be self made and does not have to be real. 
   </br>
+  </br>
   3b. The cores(threads) and ram(buffer-size) used by Galaxy can be found here as well.
   </br>
 </p>
