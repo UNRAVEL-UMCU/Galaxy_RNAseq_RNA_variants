@@ -128,7 +128,7 @@
   </br>
   Example histoty of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a>  
   </br>
-  <img src="pipeline_galaxy.png" alt="Logo" width="400" height="200">
+  <img src="pipeline_galaxy.png" alt="Logo" width="800" height="400">
 </p>
 
 <p>
@@ -139,6 +139,7 @@
     <li>Compute</li>
     <li>Datamash</li>
   </ol>
+  <img src="pipeline_galaxy_part2.png" alt="Logo" width="400" height="200">
 </p>
 
 <p>
