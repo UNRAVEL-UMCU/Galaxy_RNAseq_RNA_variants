@@ -20,7 +20,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<p>
+  Identifying RNA variants in hypertrophic cardiomyopathy pluripotent stem cells derived cardiomyocyte models
+</p>
 <!-- galaxy -->
 ## Galaxy-pipeline
 <div align="center">
