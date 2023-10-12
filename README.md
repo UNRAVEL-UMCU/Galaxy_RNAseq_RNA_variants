@@ -196,7 +196,9 @@
     <li>Use arrow keys to scroll down</li>
     <li>Look for galaxy_config</li>
   </ul>
-  <code>admin_users: admin@galaxy.org, "add yours here@mail.org"</code>
+  <code>admin_users: admin@galaxy.org, "youremail@mail.org"</code>
+  </br>
+  Make one on the local galaxy instance by registering. These can be self made and does not have to be real. 
   </br>
   3b. The cores(threads) and ram(buffer-size) used by Galaxy can be found here as well.
   </br>
