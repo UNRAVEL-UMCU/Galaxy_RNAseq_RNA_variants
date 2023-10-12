@@ -149,7 +149,7 @@
     <li>Deseq2</li>
     <li>UpSet diagram</li>
   </ol>
-  <img src="History.png" alt="Logo" height="200">
+  <img src="History.png" alt="Logo" height="300">
 </p>
 
 <!-- rscripts -->
