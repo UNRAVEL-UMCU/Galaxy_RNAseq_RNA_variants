@@ -172,9 +172,43 @@
 </p>
 
 <p>
-  When in the Windows VM
+  When in the Windows VM.
+  </br>
   1. Open cmd
+  </br>
   <code>ssh 10.xxx.xxx.xxx -l "youremail@mydre.org"</code>
+  <ul>
+    <li>Type mydre password blindly and enter</li>
+  </ul>
+  2. To get to /home
+  </br>
+  <code>cd ..</code>
+  3. To add more local admin users, go to this folder
+  </br>
+  <code>cd /home/galaxy/group_vars</code>
+  </br>
+  <code>sudo nano galaxyservers.yml</code>
+  <ul>
+    <li>Type mydre password blindly and enter</li>
+    <li>Use arrow keys to scroll down</li>
+    <li>Look for galaxy_config</li>
+  </ul>
+  <code>admin_users: admin@galaxy.org, "add yours here@mail.org"</code>
+  </br>
+  3b. The cores(threads) and ram(buffer-size) used by Galaxy can be found here as well.
+  </br>
+  4. Status of used storage.
+  </br>
+  <code>df -h</code>
+  5. When full, empty temporary folder when many analysis were done.
+  </br>
+  <code>cd /srv/galaxy/var/tmp</code>
+  </br>
+  <code>ls</code>
+  </br>
+  These files can be deleted. Warning: Be very careful when using sudo.
+  </br>
+  <code>sudo rm -r *</code>
 </p>
 
 <!-- acknowledgments -->
