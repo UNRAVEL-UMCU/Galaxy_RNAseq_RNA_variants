@@ -118,6 +118,10 @@
   Example history of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/michiganpreprocess" target="_blank">Example_run</a>
 </p>
 
+<p>
+  <img src="Michigan_preprocess.png" alt="Logo" width="400" height="200">
+</p>
+
 ## Complete workflow BAM to output
 <p>
   Workflow file: Galaxy-Workflow-Project_workflow.ga 
