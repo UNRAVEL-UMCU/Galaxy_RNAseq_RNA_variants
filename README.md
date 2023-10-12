@@ -13,7 +13,12 @@
       </ul>
     </li>
     <li><a href="#r-scripts">R scripts</a></li>
-    <li><a href="#local-galaxy">Local Galaxy</a></li>
+    <li><a href="#local-galaxy">Local Galaxy</a>
+      <ul>
+        <li><a href="#DRE-guides">DRE guides</a></li>
+        <li><a href="#In-a-Windows-VM">In a Windows VM</a></li>
+      </ul>
+    </li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
@@ -163,6 +168,7 @@
 
 <!-- Local galaxy -->
 ## Local Galaxy
+## DRE guides
 <p>
   <ol>
     <li>Resizing the <a href="https://support.mydre.org/portal/en/kb/articles/resizevm" target="_blank">VM</a></li>
@@ -172,6 +178,7 @@
   </ol>
 </p>
 
+## In a Windows VM
 <p>
   When in the Windows VM.
   </br>
@@ -199,7 +206,7 @@
   </ul>
   <code>admin_users: admin@galaxy.org, "youremail@mail.org"</code>
   </br>
-  Make one on the local galaxy instance by registering. These can be self made and does not have to be real. 
+  Make one on the local Galaxy instance by registering. These can be self-made and do not have to be real. 
   </br>
   </br>
   3b. The cores(threads) and ram(buffer-size) used by Galaxy can be found here as well.
