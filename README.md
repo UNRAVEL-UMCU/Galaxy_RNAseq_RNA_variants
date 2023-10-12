@@ -139,7 +139,7 @@
     <li>Compute</li>
     <li>Datamash</li>
   </ol>
-  <img src="pipeline_galaxy_part2.png" alt="Logo" width="400" height="200">
+  <img src="pipeline_galaxy_part2.png" alt="Logo">
 </p>
 
 <p>
