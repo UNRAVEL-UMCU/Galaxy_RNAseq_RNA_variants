@@ -23,8 +23,9 @@
 <p>
   Identifying RNA variants in hypertrophic cardiomyopathy pluripotent stem cells derived cardiomyocyte models
 </p>
+
 <!-- galaxy -->
-## Galaxy-pipeline
+## Galaxy pipeline
 <div align="center">
   <img src="pipeline.png" alt="Logo" width="400" height="500">
 </div>
