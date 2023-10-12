@@ -122,7 +122,26 @@
 <p>
   Workflow file: Galaxy-Workflow-Project_workflow.ga 
   </br>
-  Example hisroty of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a> 
+  Example hisroty of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a>  
+</p>
+  Not visible in the Galaxy pipeline figure, but it is present in the workflow file. Text manipulation tools:
+  <ol>
+    <li>SNPSift Extract Fields</li>
+    <li>Unfold</li>
+    <li>Compute</li>
+    <li>Datamash</li>
+  </ol>
+<p>
+
+<p>
+  Not visible due to the combination of multiple samples and the example history contains a run of 1 sample. My output with multiple samples is added to the example history.
+  <ol>
+    <li>Join two Datasets</li>
+    <li>Deseq2</li>
+    <li>UpSet diagram</li>
+  </ol>
+</p>
+  
 </p>
 
 <!-- rscripts -->
