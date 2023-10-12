@@ -19,7 +19,6 @@
         <li><a href="#In-a-Windows-VM">In a Windows VM</a></li>
       </ul>
     </li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -229,9 +228,3 @@
   <code>Warning: Be very careful when using sudo.</code>
   <code>sudo rm -r *</code>
 </p>
-
-<!-- acknowledgments -->
-## Acknowledgments
-
-
-
