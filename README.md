@@ -177,12 +177,15 @@
   1. Open cmd
   </br>
   <code>ssh 10.xxx.xxx.xxx -l "youremail@mydre.org"</code>
-  <ul>
-    <li>Type mydre password blindly and enter</li>
-  </ul>
+  </br>
+  Type mydre password blindly and enter
+</p>
+<p>
   2. To get to /home
   </br>
   <code>cd ..</code>
+</p>
+<p>
   3. To add more local admin users, go to this folder
   </br>
   <code>cd /home/galaxy/group_vars</code>
@@ -197,9 +200,13 @@
   </br>
   3b. The cores(threads) and ram(buffer-size) used by Galaxy can be found here as well.
   </br>
+</p>
+<p>
   4. Status of used storage.
   </br>
   <code>df -h</code>
+</p>
+<p>
   5. When full, empty temporary folder when many analysis were done.
   </br>
   <code>cd /srv/galaxy/var/tmp</code>
