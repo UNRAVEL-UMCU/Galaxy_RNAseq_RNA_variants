@@ -155,7 +155,7 @@
 <!-- rscripts -->
 ## R scripts
 <p>
-  Datasets for plotting can be found on the UMC Utrecht werkstation
+  Datasets for plotting can be found on the UMC Utrecht workstation
 </p>
 
 <!-- Local galaxy -->
