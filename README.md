@@ -127,6 +127,7 @@
   Workflow file: Galaxy-Workflow-Project_workflow.ga 
   </br>
   Example histoty of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a>  
+  </br>
   <img src="pipeline_galaxy.png" alt="Logo" width="400" height="200">
 </p>
 
