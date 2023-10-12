@@ -171,6 +171,12 @@
   </ol>
 </p>
 
+<p>
+  When in the Windows VM
+  1. Open cmd
+  <code>ssh 10.xxx.xxx.xxx -l "youremail@mydre.org"</code>
+</p>
+
 <!-- acknowledgments -->
 ## Acknowledgments
 
