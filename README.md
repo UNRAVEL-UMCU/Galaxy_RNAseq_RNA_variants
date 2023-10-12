@@ -119,7 +119,7 @@
 </p>
 
 <p>
-  <img src="Michigan_preprocess.png" alt="Logo" width="400" height="200">
+  <img src="Michigan_preprocess.png" alt="Logo">
 </p>
 
 ## Complete workflow BAM to output
@@ -128,7 +128,7 @@
   </br>
   Example histoty of 1 file: <a href="https://usegalaxy.eu/u/vanessa1/h/projectworkflow" target="_blank">Example_run</a>  
   </br>
-  <img src="pipeline_galaxy.png" alt="Logo" width="800" height="400">
+  <img src="pipeline_galaxy.png" alt="Logo">
 </p>
 
 <p>
