@@ -213,8 +213,9 @@
   </br>
   <code>ls</code>
   </br>
-  These files can be deleted. Warning: Be very careful when using sudo.
+  These files can be deleted. 
   </br>
+  <code>Warning: Be very careful when using sudo.</code>
   <code>sudo rm -r *</code>
 </p>
 
