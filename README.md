@@ -25,7 +25,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p>
-  Identifying RNA variants in hypertrophic cardiomyopathy pluripotent stem cells derived cardiomyocyte models
+  Identifying RNA variants in hypertrophic cardiomyopathy pluripotent stem cells derived cardiomyocyte models. </br>
+  </br>
+  Vanessa Shek 
 </p>
 
 <!-- galaxy -->
